@@ -31,7 +31,7 @@ for g, c in cluster.items():
 
 ### Output:
 
-<img width="703" height="685" alt="Screenshot 2025-09-24 191531" src="https://github.com/user-attachments/assets/cb9bf2e6-8d9f-4fd2-85b3-d503ecf7b6a9" />
+<img width="703" height="685" alt="Screenshot 2025-09-24 191531" src="https://github.com/user-attachments/assets/e0e7b2c1-d1f0-4163-96fa-d1ac2d09a658" />
 
 
 
@@ -47,7 +47,7 @@ plt.show()
 
 ### Output:
 
-<img width="960" height="569" alt="Screenshot 2025-09-24 191541" src="https://github.com/user-attachments/assets/9cb7c04a-b3bb-45c7-8549-f977868a1df0" />
+<img width="960" height="569" alt="Screenshot 2025-09-24 191541" src="https://github.com/user-attachments/assets/07a075e6-c302-430f-bdac-3d57ad9255df" />
 
 
 ## Program 2:
@@ -69,7 +69,7 @@ df3['cluster']=kmeans.fit_predict(newdf)
 df3
 
 ## Output:
-<img width="732" height="716" alt="Screenshot 2025-09-24 191600" src="https://github.com/user-attachments/assets/2bd85a8f-41ed-4fb3-988c-4141b5c31775" />
+<img width="732" height="716" alt="Screenshot 2025-09-24 191600" src="https://github.com/user-attachments/assets/d7bbffa0-5912-4e20-8ea4-9acc4c6ba4e1" />
 
 ## Visualisation:
 python
@@ -80,7 +80,7 @@ plt.show()
 
 ## Output:
 
-<img width="745" height="438" alt="image" src="https://github.com/user-attachments/assets/c3497f49-2eed-4450-9b64-676da413611f" />
+<img width="745" height="438" alt="Screenshot 2025-09-24 191934" src="https://github.com/user-attachments/assets/839d195a-855f-48b5-841e-8dc4683e83dc" />
 
 
 ### Result:
