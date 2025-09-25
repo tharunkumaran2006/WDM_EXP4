@@ -14,7 +14,7 @@
 4) Visualize the result using matplotlib.
 
 ### Program 1:
-python
+```python
 import pandas as pd
 df = pd.read_csv("/clustervisitor.csv")
 print(df)
@@ -26,7 +26,7 @@ for g, c in cluster.items():
   print(f"Visitors in {g} Group")
   print(visitors)
   print(count)
-
+```
 
 
 ### Output:
@@ -36,7 +36,7 @@ for g, c in cluster.items():
 
 
 ### Visualization:
-python
+```python
 import matplotlib.pyplot as plt
 plt.figure(figsize=(8, 6))
 plt.bar(cluster.keys(), count, color='skyblue')
@@ -44,14 +44,14 @@ plt.xlabel('Age Groups')
 plt.ylabel('Number of Visitors')
 plt.title('Visitor Distribution Across Age Groups')
 plt.show()
-
+```
 ### Output:
 
 <img width="960" height="569" alt="Screenshot 2025-09-24 191541" src="https://github.com/user-attachments/assets/07a075e6-c302-430f-bdac-3d57ad9255df" />
 
 
 ## Program 2:
-python
+```python
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 df=pd.read_csv("/clustervisitor (Salary).csv")
@@ -67,17 +67,17 @@ newdf
 kmeans=KMeans(n_clusters=3,random_state=42)
 df3['cluster']=kmeans.fit_predict(newdf)
 df3
-
+```
 ## Output:
 <img width="732" height="716" alt="Screenshot 2025-09-24 191600" src="https://github.com/user-attachments/assets/d7bbffa0-5912-4e20-8ea4-9acc4c6ba4e1" />
 
 ## Visualisation:
-python
+```python
 plt.scatter(df3['Age'],df3['Salary'],c=df3['cluster'])
 plt.xlabel('Age')
 plt.ylabel('Salary in thousands')
 plt.show()
-
+```
 ## Output:
 
 <img width="745" height="438" alt="Screenshot 2025-09-24 191934" src="https://github.com/user-attachments/assets/839d195a-855f-48b5-841e-8dc4683e83dc" />
